@@ -1,6 +1,9 @@
-#INSTALAR EL MOTOR
+# INSTALAR EL MOTOR
+
 composer install
+
 npm install
 
-#GENERAR EL KEY
+# GENERAR EL KEY
+
 php artisan key:generate
