@@ -1,0 +1,14 @@
+<?php
+
+namespace {{ namespace }};
+
+class {{ class }}
+{
+    /**
+     * Mapea datos crudos / agregados hacia DTOs o estructuras de respuesta.
+     */
+    public static function map(mixed $source): mixed
+    {
+        //
+    }
+}

@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
-class MakeServiceCommand extends GeneratorCommand
+class MakeDtoCommand extends GeneratorCommand
 {
     protected $signature = 'make:dto {name}';
 

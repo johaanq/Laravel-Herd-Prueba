@@ -1,0 +1,22 @@
+<?php
+
+namespace {{ namespace }};
+
+use JsonSerializable;
+
+/**
+ * TODO: documentar propósito del DTO.
+ */
+final class {{ class }} implements JsonSerializable
+{
+    public function __construct(
+        // public readonly string $ejemplo,
+    ) {}
+
+    public function jsonSerialize(): array
+    {
+        return [
+            // 'ejemplo' => $this->ejemplo,
+        ];
+    }
+}
